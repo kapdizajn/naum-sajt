@@ -1,0 +1,40 @@
+<head>
+    <title>Naumov sajt</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+</head>
+
+  <header>
+    <ul>
+        <li><a href="index.html">Prva</a></li>
+        <li><a href="druga-strana.html">Druga</a></li>
+        <li><a href="treca-strana.html">Treca</a></li>
+        <li><a href="cetvrta-strana.html">Cetvrta</a></li>
+      </ul>
+  </header>
+<body style="background-color: indigo;">
+
+<h1 style="color: rgb(96, 192, 96);">Koja je ovo zivotinja?</h1>
+<img src="./images/great-tiger-male-nature-habitat-600w-696476371.webp" alt="tiger" style="width: 25%;">
+<div style="background-color: khaki;">
+    <input type="radio" id="tigar" name="gender" value="Tigar">
+    <label for="male">Tigar</label><br>
+    <input type="radio" id="lav" name="gender" value="Lav">
+    <label for="female">Lav</label><br>
+    <input type="radio" id="slon" name="gender" value="Slon">
+    <label for="other">Slon</label>
+</div>
+<div>
+<button style="margin-top:24px ;" onclick="myFunction()">
+<a>Potvrdjujem odgovor</a>
+</button>
+</div>
+
+
+<script>
+function myFunction() {
+  confirm("Ova zivotinja je Tigar!!!!!");
+}
+</script>
+
+</body>
+
